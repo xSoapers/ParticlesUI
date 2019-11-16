@@ -33,7 +33,7 @@ class Main extends PluginBase implements Listener{
 	
 	public function onEnable()
 	{
-		$this->getLogger()->info("[Enable] Plugin dibuat oleh Giings");
+		$this->getLogger()->info("[Enable] §bPlugin dibuat oleh Giings");
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $this->getScheduler()->scheduleRepeatingTask(new Particle($this), 5);
 	}
