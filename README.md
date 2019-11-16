@@ -3,7 +3,7 @@
 
 *Get .phar [here]*
 
-Get .zip [here]
+*Get .zip [here]*
 
 ## INFO
 **The ParticleUI plugin makes it easy for you to use an effect such as a heart crown and many more**
