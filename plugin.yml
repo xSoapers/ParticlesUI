@@ -29,7 +29,7 @@ commands:
     permission: p.ui
     usage: /pui
     
-    
+   
 permissions:
   p.crownheart:
     default: op
@@ -47,5 +47,5 @@ permissions:
     default: op
     description: Particle Dring Command
   p.ui:
-    default: op
+    default: true
     description: Particle UI Command
