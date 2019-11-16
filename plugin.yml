@@ -1,4 +1,4 @@
-name: ParticleGiings
+name: ParticlesUI
 main: ParticleGiings\Main
 version: 1.0
 api: [3.0.0]
@@ -29,7 +29,7 @@ commands:
     permission: p.ui
     usage: /pui
     
-   
+    
 permissions:
   p.crownheart:
     default: op
@@ -47,5 +47,5 @@ permissions:
     default: op
     description: Particle Dring Command
   p.ui:
-    default: true
+    default: op
     description: Particle UI Command
