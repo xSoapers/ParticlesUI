@@ -1,0 +1,51 @@
+name: ParticleUI
+main: ParticleGiings\Main
+version: 1.0
+api: [3.0.0]
+author: Giings, xSoapers
+commands:
+  pcrownheart:
+    description: "Particle CrownHeart Command"
+    permission: p.crownheart
+    usage: /pcrownheart
+  plaser:
+    description: "Particle Laser Command"
+    permission: p.laser
+    usage: /plaser
+  ptornado:
+    description: "Particle Tornado Command"
+    permission: p.tornado
+    usage: /ptornado
+  psboom:
+    description: "Particle SonicBoom Command"
+    permission: p.sboom
+    usage: /psboom
+  pdring:
+    description: "Particle Dring Command"
+    permission: p.dring
+    usage: /pdring
+  pui:
+    description: "Particle UICommand"
+    permission: p.ui
+    usage: /pui
+    
+    
+permissions:
+  p.crownheart:
+    default: op
+    description: Particle CrownHeart Command
+  p.laser:
+    default: op
+    description: Particle Laser Command
+  p.tornado:
+    default: op
+    description: Particle Tornado Command
+  p.sboom:
+    default: op
+    description: Particle SonicBoom Command
+  p.dring:
+    default: op
+    description: Particle Dring Command
+  p.ui:
+    default: op
+    description: Particle UI Command
