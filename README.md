@@ -1,4 +1,4 @@
-## ParticlesUI
+## ParticlesUI    [![HitCount](http://hits.dwyl.io/xSoapers/ParticlesUI.svg)](http://hits.dwyl.io/xSoapers/ParticlesUI)
 
 
 *Get .phar [here]*
