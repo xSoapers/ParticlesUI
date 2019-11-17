@@ -1,6 +1,8 @@
 name: ParticlesUI
 main: ParticleGiings\Main
-version: 1.0
+version: 1.0.0
+softdepend:
+- FormAPI
 api: 3.0.0
 author: Giings, xSoapers
 commands:
