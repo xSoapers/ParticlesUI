@@ -33,7 +33,7 @@ class Main extends PluginBase implements Listener{
 	
     public function onEnable()
     {
-	$this->getLogger()->info("[Enable] Plugin dibuat oleh Giings");
+	$this->getLogger()->info("[Enable] §bplugin created by Giings");
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $this->getScheduler()->scheduleRepeatingTask(new Particle($this), 5);
     }
@@ -41,7 +41,7 @@ class Main extends PluginBase implements Listener{
     public function checkDepends(){
         $this->formapi = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
         if(is_null($this->formapi)){
-            $this->getLogger()->info("[Disable] Perlu plugin FormAPI!");
+            $this->getLogger()->info("[Disable] §cYou need FormAPI!");
             $this->getPluginLoader()->disablePlugin($this);
         }
     }
@@ -50,13 +50,13 @@ class Main extends PluginBase implements Listener{
 	{
 	$name = $player->getName();
 	    if(!$player instanceof Player){
-		$player->sendMessage("Gunakan Command Dalam Game");
+		$player->sendMessage("Please use command in-game");
 		return false;
 	    }
             $username = strtolower($player->getName());
             if($command->getName() == "pui"){
                 if(!($player instanceof Player)){
-                        $player->sendMessage("§7 Anda Tidak Memiliki Izin Perintah");
+                        $player->sendMessage("§7 You don't have permission");
                         return true;
                 }
                 $api = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
@@ -91,7 +91,7 @@ class Main extends PluginBase implements Listener{
                 }
             });
             $form->setTitle("§l§ePARTICLE");
-            $form->addButton("§c§lKEMBALI");
+            $form->addButton("§c§lEXIT");
             $form->addButton("§0§lCROWN HEART");
             $form->addButton("§0§lLASER");
             $form->addButton("§0§lTORNADO");
